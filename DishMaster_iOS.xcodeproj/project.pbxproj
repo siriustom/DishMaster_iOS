@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00FCADE3689E0DA5913B1C7 /* Pods_DishMaster_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47452B5D177E9E019AFE7D78 /* Pods_DishMaster_iOSUITests.framework */; };
+		D1AB25A0D43D3D5104A88C5C /* Pods_DishMaster_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509462E14DAB5964AD91076 /* Pods_DishMaster_iOSTests.framework */; };
 		E2D680C121B7A7F400534A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D680C021B7A7F400534A6F /* AppDelegate.m */; };
 		E2D680C421B7A7F400534A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D680C321B7A7F400534A6F /* ViewController.m */; };
 		E2D680C721B7A7F400534A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D680C521B7A7F400534A6F /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		E2D680CF21B7A7F500534A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D680CE21B7A7F500534A6F /* main.m */; };
 		E2D680D921B7A7F500534A6F /* DishMaster_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D680D821B7A7F500534A6F /* DishMaster_iOSTests.m */; };
 		E2D680E421B7A7F500534A6F /* DishMaster_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D680E321B7A7F500534A6F /* DishMaster_iOSUITests.m */; };
+		E5BA96A9AE74448C16F14D3C /* Pods_DishMaster_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC36C08768CC1BA82E98708 /* Pods_DishMaster_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4854EF0D5CB0CB8C88F639 /* Pods-DishMaster_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOSTests/Pods-DishMaster_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0CB9D74D74E985ED9382CCF2 /* Pods-DishMaster_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		396098C42E632D6145DEF7E3 /* Pods-DishMaster_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4509462E14DAB5964AD91076 /* Pods_DishMaster_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DishMaster_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47452B5D177E9E019AFE7D78 /* Pods_DishMaster_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DishMaster_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B32B3CDCB7777F8C4129A14 /* Pods-DishMaster_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOSTests/Pods-DishMaster_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC36C08768CC1BA82E98708 /* Pods_DishMaster_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DishMaster_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54820FF531A82198FF5AB6D /* Pods-DishMaster_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOSUITests/Pods-DishMaster_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB37D19674BE80ECFE20DDEF /* Pods-DishMaster_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DishMaster_iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DishMaster_iOSUITests/Pods-DishMaster_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2D680BC21B7A7F400534A6F /* DishMaster_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishMaster_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D680BF21B7A7F400534A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2D680C021B7A7F400534A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BA96A9AE74448C16F14D3C /* Pods_DishMaster_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AB25A0D43D3D5104A88C5C /* Pods_DishMaster_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00FCADE3689E0DA5913B1C7 /* Pods_DishMaster_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DE2F6FA7B563F47117CDD6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC36C08768CC1BA82E98708 /* Pods_DishMaster_iOS.framework */,
+				4509462E14DAB5964AD91076 /* Pods_DishMaster_iOSTests.framework */,
+				47452B5D177E9E019AFE7D78 /* Pods_DishMaster_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2D680B321B7A7F400534A6F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				E2D680D721B7A7F500534A6F /* DishMaster_iOSTests */,
 				E2D680E221B7A7F500534A6F /* DishMaster_iOSUITests */,
 				E2D680BD21B7A7F400534A6F /* Products */,
+				EA78AB419445AC5CF9B14947 /* Pods */,
+				2DE2F6FA7B563F47117CDD6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,19 @@
 			path = DishMaster_iOSUITests;
 			sourceTree = "<group>";
 		};
+		EA78AB419445AC5CF9B14947 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CB9D74D74E985ED9382CCF2 /* Pods-DishMaster_iOS.debug.xcconfig */,
+				396098C42E632D6145DEF7E3 /* Pods-DishMaster_iOS.release.xcconfig */,
+				5B32B3CDCB7777F8C4129A14 /* Pods-DishMaster_iOSTests.debug.xcconfig */,
+				0C4854EF0D5CB0CB8C88F639 /* Pods-DishMaster_iOSTests.release.xcconfig */,
+				C54820FF531A82198FF5AB6D /* Pods-DishMaster_iOSUITests.debug.xcconfig */,
+				DB37D19674BE80ECFE20DDEF /* Pods-DishMaster_iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D680E821B7A7F500534A6F /* Build configuration list for PBXNativeTarget "DishMaster_iOS" */;
 			buildPhases = (
+				97D8BBF86F759463CE730F8A /* [CP] Check Pods Manifest.lock */,
 				E2D680B821B7A7F400534A6F /* Sources */,
 				E2D680B921B7A7F400534A6F /* Frameworks */,
 				E2D680BA21B7A7F400534A6F /* Resources */,
+				5AAA29CBA10031D62EEFECFE /* [CP] Embed Pods Frameworks */,
+				CB320893D38454BD0775D40A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D680EB21B7A7F500534A6F /* Build configuration list for PBXNativeTarget "DishMaster_iOSTests" */;
 			buildPhases = (
+				6A4964EF37158ACCE701017B /* [CP] Check Pods Manifest.lock */,
 				E2D680D021B7A7F500534A6F /* Sources */,
 				E2D680D121B7A7F500534A6F /* Frameworks */,
 				E2D680D221B7A7F500534A6F /* Resources */,
@@ -174,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2D680EE21B7A7F500534A6F /* Build configuration list for PBXNativeTarget "DishMaster_iOSUITests" */;
 			buildPhases = (
+				E52A10EC893CE0C9FA1E741E /* [CP] Check Pods Manifest.lock */,
 				E2D680DB21B7A7F500534A6F /* Sources */,
 				E2D680DC21B7A7F500534A6F /* Frameworks */,
 				E2D680DD21B7A7F500534A6F /* Resources */,
@@ -256,6 +301,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AAA29CBA10031D62EEFECFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-camera/cordova_plugin_camera.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-contacts/cordova_plugin_contacts.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device/cordova_plugin_device.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device-motion/cordova_plugin_device_motion.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device-orientation/cordova_plugin_device_orientation.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-file/cordova_plugin_file.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-file-transfer/cordova_plugin_file_transfer.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-geolocation/cordova_plugin_geolocation.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-globalization/cordova_plugin_globalization.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-inappbrowser/cordova_plugin_inappbrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-media-capture/cordova_plugin_media_capture.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-network-information/cordova_plugin_network_information.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-splashscreen/cordova_plugin_splashscreen.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-statusbar/cordova_plugin_statusbar.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-vibration/cordova_plugin_vibration.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_camera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_contacts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device_motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device_orientation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_file.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_file_transfer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_geolocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_globalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_inappbrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_media_capture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_network_information.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_splashscreen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_statusbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_vibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_wkwebview_engine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4964EF37158ACCE701017B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DishMaster_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D8BBF86F759463CE730F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DishMaster_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB320893D38454BD0775D40A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS-resources.sh",
+				"${PODS_ROOT}/phonegap-ios-template/resources/config.xml",
+				"${PODS_ROOT}/phonegap-ios-template/resources/www",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/config.xml",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/www",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DishMaster_iOS/Pods-DishMaster_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52A10EC893CE0C9FA1E741E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DishMaster_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2D680B821B7A7F400534A6F /* Sources */ = {
@@ -431,6 +623,7 @@
 		};
 		E2D680E921B7A7F500534A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB9D74D74E985ED9382CCF2 /* Pods-DishMaster_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +640,7 @@
 		};
 		E2D680EA21B7A7F500534A6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396098C42E632D6145DEF7E3 /* Pods-DishMaster_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +657,7 @@
 		};
 		E2D680EC21B7A7F500534A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B32B3CDCB7777F8C4129A14 /* Pods-DishMaster_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +676,7 @@
 		};
 		E2D680ED21B7A7F500534A6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4854EF0D5CB0CB8C88F639 /* Pods-DishMaster_iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +695,7 @@
 		};
 		E2D680EF21B7A7F500534A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54820FF531A82198FF5AB6D /* Pods-DishMaster_iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DishMaster_iOSUITests/Info.plist;
@@ -516,6 +713,7 @@
 		};
 		E2D680F021B7A7F500534A6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB37D19674BE80ECFE20DDEF /* Pods-DishMaster_iOSUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DishMaster_iOSUITests/Info.plist;
