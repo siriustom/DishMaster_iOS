@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    if (self.startPage == nil) {
+        self.startPage = @"pg-home.html";
+    }
 }
 
 
