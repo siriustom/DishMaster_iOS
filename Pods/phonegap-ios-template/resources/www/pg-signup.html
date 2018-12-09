@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css">
+        <link rel='stylesheet' href='css/signup.css' />
+        <link rel='stylesheet' type="text/css" href='css/styles.css' />
+        <link rel='stylesheet' type="text/css" href='css/home.css' />
+        <link rel='stylesheet' type="text/css" href='css/topnav.css' />
+        <link rel='stylesheet' type="text/css" href='css/header.css' />
+        <link rel='stylesheet' type="text/css" href='css/components.css' />
+    </head>
+    <body>
+        <!--top nav-->
+        <nav class="dm-topnav mt-2">
+            <ul class="dm-topnav-icons-wrapper">
+                <li class="dm-topnav-icons">
+                    <a href="/">
+                        <img class="dm-logo-sm" src="img/homeIcon/homeIcon1.png">
+                            </a>
+                </li>
+                <li class="dm-topnav-icons">
+                    <a href="/logout">
+                        <img class="dm-logo-sm" src="img/logoutIcon/logoutIcon.png">
+                            </a>
+                </li>
+                <li class="dm-topnav-icons" id="dm-topnav-user-icon">
+                    <a href="/">
+                        <img class="dm-logo-sm" src="img/userIcon/userIcon1.png">
+                            </a>
+                </li>
+            </ul>
+        </nav>
+        <!--content -->
+        <div class="dm-header container mt-5">
+            <div class="row">
+                <div class="col-lg-3 dm-header-logo-wrapper">
+                    <a href="#" class="">
+                        <img class="dm-header-logo" src="img/logo_slices/logo@2x.png">
+                            </a>
+                </div>
+                <div class="col-lg-6 dm-header-text-wrapper">
+                    <h1 class="dm-header-text">DISH MASTER</h1>
+                </div>
+                <div class="col-lg-3">
+                    <div class="dm-header-location-wrapper">
+                        <span><img src="img/locationIcon/locationIcon1.png"></span>
+                        <span class="align-middle">SAN JOSE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dm-signup container mt-4">
+            <div class="row">
+                
+                <div class="col-lg-7 dm-signup-image">
+                    <img class="signup" src="img/signup/signup1.png">
+                        </div>
+                
+                <div class="col-lg-5 container">
+                    <form class="form-horizontal mt-5" id="signupForm" action='/signup' method="POST">
+                        <fieldset>
+                            <div class="form-group">
+                                <!-- Username -->
+                                <label class="control-label"  for="username">Username:</label>
+                                <input type="text" id="inputUsername" name="userName" placeholder="" class="form-control" minlength=6 maxlength=12 required >
+                                    <small class="form-text text-muted">Username must contain 6-12 characters.</small>
+                                    </div>
+                            
+                            <div class="form-group">
+                                <!-- E-mail -->
+                                <label class="control-label" for="email">E-mail:</label>
+                                <input type="text" id="inputEmail" name="userEmail" placeholder="" class="form-control" required>
+                                    <small class="form-text text-muted">Email must follow standard Email format i.e. abc@abc.com.</small>
+                                    </div>
+                            
+                            <div class="form-group">
+                                <!-- Password-->
+                                <label class="control-label" for="password">Password:</label>
+                                <input type="password" id="inputPwd" name="userPwd" placeholder="" class="form-control" minlength=6 maxlength=12 required>
+                                    <small class="form-text text-muted">Password must contain 6-12 characters.</small>
+                                    </div>
+                            
+                            <div class="form-group">
+                                <!-- Password -->
+                                <label class="control-label"  for="password_confirm">Password (Confirm):</label>
+                                <input type="password" id="inputPwdConfirm" name="userPwdConfirm" placeholder="" class="form-control" minlength=6 maxlength=12 required>
+                                    </div>
+                            
+                            <button class="btn dm-btn-success">Register</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dm-footer mt-4 mb-3"><h6>Copyright 2018 Dish Master</h6></div>
+    </body>
+    
+    
+</html>
