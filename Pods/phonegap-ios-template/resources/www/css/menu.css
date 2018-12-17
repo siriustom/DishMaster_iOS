@@ -22,10 +22,26 @@
 .dm-menu-dish-name {
     margin-left: 4rem;
     margin-right: 4rem;
+}
+
+.dm-menu-dish-name-container {
     width: 40%;
 }
 
 .dm-menu-dish-price {
-    margin-left: 16rem;
+    margin-left: 12rem;
     margin-right: 4rem;
+}
+
+.dm-menu-item-bar {
+    display: flex;
+}
+
+.dm-menu-item-detail-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.dm-menu-detail-image {
+    width:  100%;
 }
