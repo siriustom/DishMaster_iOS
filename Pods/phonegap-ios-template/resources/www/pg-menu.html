@@ -13,6 +13,22 @@
         <link rel='stylesheet' type="text/css" href='css/header.css' />
         <link rel='stylesheet' type="text/css" href='css/components.css' />
         <link rel='stylesheet' type="text/css" href='css/menu.css' />
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $.get("https://api.mlab.com/api/1/databases/ocr-menu-demo/collections/dish-details?q={%22rstId%22:%20%221%22,%22dishId%22:%221%22}&apiKey=kkw5BBl1bB8nlVOuDtt5t89K3Q-ot84-",
+                function(data, status){
+                    for (let i = 0; i < data.length; i++) {
+                        $(`#dish_name_${i}`).html(data[i].dishName);
+                        $(`#dish_price_${i}`).html(data[i].price);
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
         <!--top nav-->
@@ -32,9 +48,9 @@
                     </div>
                     <div class="w3-container dm-menu-text">
                         <div class="dm-menu-dish-name-container">
-                            <h1 class="dm-menu-dish-name">Capellini con Pomodoro</h1>
+                            <h1 id="dish_name_0" class="dm-menu-dish-name">Capellini con Pomodoro</h1>
                         </div>
-                        <h1 class="dm-menu-dish-price">Price: $18.50</h1>
+                        <h1 class="dm-menu-dish-price">Price: $<h1 id="dish_price_0">18.50</h1></h1>
                     </div>
                 </div>
             </a>

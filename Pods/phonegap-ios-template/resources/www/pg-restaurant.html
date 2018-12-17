@@ -13,6 +13,23 @@
         <link rel='stylesheet' type="text/css" href='css/header.css' />
         <link rel='stylesheet' type="text/css" href='css/components.css' />
         <link rel='stylesheet' type="text/css" href='css/menu.css' />
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $.get("https://api.mlab.com/api/1/databases/ocr-menu-demo/collections/rst-details?apiKey=kkw5BBl1bB8nlVOuDtt5t89K3Q-ot84-",
+                function(data, status){
+                    for (let i = 0; i < data.length; i++) {
+                        $(`#rst_name_${i}`).html(data[i].name);
+                        $(`#rst_category_${i}`).html(data[i].categories);
+                        $(`#rst_address_${i}`).html(data[i].address);
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
         <!--top nav-->
@@ -31,7 +48,7 @@
                         <div class="card-body card-cuisine-adjust">
                             <div class="dm-cuisine-card-title">
                                 <h3 class="mr-4">
-                                    <strong>Chef Zhao Bistro</strong>
+                                    <strong id="rst_name_0">Chef Zhao Bistro</strong>
                                 </h3>
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -46,9 +63,9 @@
                             </div>
                             <div class="dm-cuisine-card-row">
                                 <h6 class="pr-3 dm-cuisine-card-separator">
-                                    <small>Chinese</small></h6>
+                                    <small id="rst_category_0">Chinese</small></h6>
                                 <h6 class="pl-3">
-                                    <small>1093 Tanland Dr, Palo Alto, CA 94303</small></h6>
+                                    <small id="rst_address_0">1093 Tanland Dr, Palo Alto, CA 94303</small></h6>
                             </div>
                         </div>
                     </div>
@@ -61,7 +78,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Big T's Seafood</strong>
+                                        <strong id="rst_name_1">Big T's Seafood</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -75,9 +92,9 @@
                                 </div>
                                 <div class="dm-cuisine-card-row">
                                     <h6 class="pr-3 dm-cuisine-card-separator">
-                                        <small>Chinese</small></h6>
+                                        <small id="rst_category_1">Chinese</small></h6>
                                     <h6 class="pl-3">
-                                        <small>1093 Tanland Dr, Palo Alto, CA 94303</small></h6>
+                                        <small id="rst_address_1">1093 Tanland Dr, Palo Alto, CA 94303</small></h6>
                                 </div>
                             </div>
                             </div>
@@ -90,7 +107,7 @@
                         <div class="card-body card-cuisine-adjust">
                             <div class="dm-cuisine-card-title">
                                 <h3 class="mr-4">
-                                    <strong>Hai Di Lao</strong>
+                                    <strong id="rst_name_2">Hai Di Lao</strong>
                                 </h3>
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -118,7 +135,7 @@
                         <div class="card-body card-cuisine-adjust">
                             <div class="dm-cuisine-card-title">
                                 <h3 class="mr-4">
-                                    <strong>Ding Tai Fung</strong>
+                                    <strong id="rst_name_3">Ding Tai Fung</strong>
                                 </h3>
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -149,7 +166,7 @@
                         <div class="card-body card-cuisine-adjust">
                             <div class="dm-cuisine-card-title">
                                 <h3 class="mr-4">
-                                    <strong>Pho Passion</strong>
+                                    <strong id="rst_name_4">Pho Passion</strong>
                                 </h3>
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -179,7 +196,7 @@
                         <div class="card-body card-cuisine-adjust">
                             <div class="dm-cuisine-card-title">
                                 <h3 class="mr-4">
-                                    <strong>Tasty Hot Pot</strong>
+                                    <strong id="rst_name_5">Tasty Hot Pot</strong>
                                 </h3>
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                 <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -207,7 +224,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Chef Zhao Bistro</strong>
+                                        <strong id="rst_name_6">Chef Zhao Bistro</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -237,7 +254,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Big T's Seafood</strong>
+                                        <strong id="rst_name_7">Big T's Seafood</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -266,7 +283,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Hai Di Lao</strong>
+                                        <strong id="rst_name_8">Hai Di Lao</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -294,7 +311,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Ding Tai Fung</strong>
+                                        <strong id="rst_name_9">Ding Tai Fung</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -325,7 +342,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Pho Passion</strong>
+                                        <strong id="rst_name_10">Pho Passion</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -355,7 +372,7 @@
                             <div class="card-body card-cuisine-adjust">
                                 <div class="dm-cuisine-card-title">
                                     <h3 class="mr-4">
-                                        <strong>Tasty Hot Pot</strong>
+                                        <strong id="rst_name_11">Tasty Hot Pot</strong>
                                     </h3>
                                     <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
                                         <img class="material-icons star-adjust mr-2" src="img/starIcon/starIcon1.png" alt="star">
@@ -380,4 +397,3 @@
         <div class="dm-footer mt-4 mb-3"><h6><em>Copyright 2018 Dish Master</em></h6></div>
     </body>
 </html>
-
