@@ -1,0 +1,31 @@
+
+.dm-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dm-menu-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dm-menu-image {
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.dm-menu-dish-name {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 40%;
+}
+
+.dm-menu-dish-price {
+    margin-left: 16rem;
+    margin-right: 4rem;
+}
